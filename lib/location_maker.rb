@@ -3,8 +3,10 @@ class LocationMaker
 
   def add_location_to_array(location,latitude,longitude)
     arr = []
-    arr << location 
+    arr << location
     arr << latitude
     arr << longitude
+
+    google_maps_array << arr
   end
 end
