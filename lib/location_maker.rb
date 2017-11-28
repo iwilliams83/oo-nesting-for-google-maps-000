@@ -3,7 +3,11 @@ class LocationMaker
 
   attr_accessor :loc, :lat, :long
 
-  def initialize
+  def initialize(loc, lat, long)
+    @loc = loc 
+    @lat = lat 
+    @long = long
+  end
   def add_location_to_array(loc,lat,long)
     arr = []
     arr << loc
