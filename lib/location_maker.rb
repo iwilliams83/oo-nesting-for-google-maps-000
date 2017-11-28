@@ -15,6 +15,6 @@ class LocationMaker
     arr << lat
     arr << long
 
-    @@google_maps_array << arr
+    google_maps_array << arr
   end
 end
