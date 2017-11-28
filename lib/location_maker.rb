@@ -17,4 +17,8 @@ class LocationMaker
 
     @@google_maps_array << arr
   end
+
+  def self.map_locations
+    return @@google_maps_array
+  end
 end
