@@ -9,12 +9,12 @@ class LocationMaker
     @long = long
   end
 
-  def add_location_to_array(loc,lat,long)
+  def self.add_location_to_array(loc,lat,long)
     arr = []
     arr << loc
     arr << lat
     arr << long
 
-    google_maps_array << arr
+    @@google_maps_array << arr
   end
 end
