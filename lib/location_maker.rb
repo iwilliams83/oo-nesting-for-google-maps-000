@@ -1,6 +1,8 @@
 class LocationMaker
   @@google_maps_array = []
 
+  attr_accessor :location, :latitude, :longitude
+
   def add_location_to_array(location,latitude,longitude)
     arr = []
     arr << location
